@@ -9,7 +9,7 @@ export interface IBackground {
   image: string
 }
 function App() {
-  const [value, setValue] = useState<IBackground>({ image: DefaultBackground })
+  const [value] = useState<IBackground>({ image: DefaultBackground })
   return (
     <div className="App" style={{ backgroundImage: `url(${value.image})` }}>
       <Header />

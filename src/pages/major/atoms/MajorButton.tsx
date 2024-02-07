@@ -6,7 +6,7 @@ export interface IMajorButton {
   link: string
 }
 export const MajorButton = () => {
-  const [value, setValue] = useState<IMajorButton>({ title: "Начать путешествие", link: "" })
+  const [value] = useState<IMajorButton>({ title: "Начать путешествие", link: "" })
   return (
     <div className="MajorButton">
       <img className="MajorButton__Button" src={Button} alt="Button" />
