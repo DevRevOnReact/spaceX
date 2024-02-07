@@ -1,0 +1,5 @@
+.MajorLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 86px;
+  }

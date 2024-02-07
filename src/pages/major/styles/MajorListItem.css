@@ -1,0 +1,52 @@
+.MajorListItem {
+  display: flex;
+  height: 166px;
+  width: 166px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  gap: 12px;
+  position: relative;
+}
+.MajorListItem__headerTitle {
+  font-size: 25px;
+  font-family: "MuseoSansCyrl-100";
+  font-size: 16px;
+}
+.MajorListItem__middleTitle {
+  font-size: 25px;
+  font-family: "MuseoSansCyrl-700";
+  margin-top: 12px;
+  font-size: 60px;
+}
+.MajorListItem__footerTitle {
+  font-size: 25px;
+  font-family: "MuseoSansCyrl-100";
+  font-size: 16px;
+}
+.MajorListItem__Back {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+  transition: 0.4s;
+}
+.MajorListItem__Back:hover{
+    opacity: 1;
+}
+.MajorListItem__Back__0 {
+    transform: rotate(-90deg);
+}
+.MajorListItem__Back__1 {
+    transform: rotate(0deg);
+}
+.MajorListItem__Back__2 {
+    transform: rotate(180deg);
+}
+.MajorListItem__Back__3 {
+    transform: rotate(90deg);
+}

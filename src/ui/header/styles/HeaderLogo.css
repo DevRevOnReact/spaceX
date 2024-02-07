@@ -1,0 +1,46 @@
+.HeaderLogo {
+  width: 316px;
+  height: 100%;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 26px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.HeaderLogo__General {
+  position: relative;
+  height: 100%;
+}
+.HeaderLogo__border {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-left: 1px solid rgba(255, 255, 255, 1);
+  border-top: 1px solid rgba(255, 255, 255, 1);
+}
+.HeaderLogo__TopLeft {
+  top: 0;
+  left: 0;
+}
+.HeaderLogo__TopRight {
+  top: 0;
+  right: 0;
+  transform: rotate(90deg);
+}
+.HeaderLogo__BottomLeft {
+  bottom: 0;
+  left: 0;
+  transform: rotate(-90deg);
+}
+.HeaderLogo__BottomRight {
+  bottom: 0;
+  right: 0;
+  transform: rotate(180deg);
+}
+@media (max-width: 1170px) {
+  .HeaderLogo {
+    width: 200px;
+  }
+}

@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-origin: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.App__Actual {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 1170px;
+  min-height: calc(100vh - 200px);
+  justify-content: center;
+}
+@media (max-width: 1170px) {
+  .App__Actual {
+    width: 90%;
+  }
+}

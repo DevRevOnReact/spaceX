@@ -1,0 +1,28 @@
+.MajorTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.MajorTitle__title {
+  font-size: 58px;
+  font-family: "MuseoSansCyrl-700";
+  background: linear-gradient(90deg, #FFFFFF 0%, #FF3D00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.MajorTitle__subTitle {
+  font-size: 25px;
+  font-family: "MuseoSansCyrl-300";
+  background: linear-gradient(90deg, #FFFFFF 0%, #FFA183 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width: 1170px) {
+  .MajorTitle__title {
+    font-size: 48px;
+  }
+  .MajorTitle__subTitle {
+    font-size: 20px;
+  }
+}

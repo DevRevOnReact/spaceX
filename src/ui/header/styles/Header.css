@@ -1,0 +1,23 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  min-width: 100vw;
+  background-color: rgba(21, 10, 1, 0.21);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+}
+.Header__Actual {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1170px;
+  height: 100%;
+}
+@media (max-width: 1170px) {
+  .Header__Actual {
+    width: 90%;
+  }
+}
