@@ -5,7 +5,7 @@ interface IHeaderLogo {
   image: string
 }
 export const HeaderLogo = () => {
-  const [value, setValue] = useState<IHeaderLogo>({ image: DefaultLogo })
+  const [value] = useState<IHeaderLogo>({ image: DefaultLogo })
   return (
     <div className="HeaderLogo__General" >
       <img className="HeaderLogo" src={value.image} alt="Logo" />

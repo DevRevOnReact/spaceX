@@ -6,7 +6,7 @@ export interface IHeaderMenuItem {
   link: string
 }
 export const HeaderMenu = () => {
-  const [value, setValue] = useState<IHeaderMenuItem[]>([
+  const [value] = useState<IHeaderMenuItem[]>([
     {
       title: "Главная",
       link: "/"
