@@ -8,7 +8,7 @@ export interface IMajorListItem {
   id:number
 }
 export const MajorList = () => {
-  const [value, setValue] = useState<IMajorListItem[]>(
+  const [value] = useState<IMajorListItem[]>(
     [
       {
         headerTitle: "мы",

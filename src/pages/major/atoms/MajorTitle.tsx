@@ -5,7 +5,7 @@ export interface IMajorTitle {
   subTitle: string
 }
 export const MajorTitle = () => {
-  const [value, setValue] = useState<IMajorTitle>({ title: "Путешествие", subTitle: "На красную планету" })
+  const [value] = useState<IMajorTitle>({ title: "Путешествие", subTitle: "На красную планету" })
   return (
     <div className="MajorTitle">
       <div className="MajorTitle__title">
